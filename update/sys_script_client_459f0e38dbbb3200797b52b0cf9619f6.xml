@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Set the Requested for to the currently logged in user for new records. Users can change the field value</description>
+        <field>active</field>
+        <global>true</global>
+        <messages/>
+        <name>NeedIt Set Requested for</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+  //Check to see if the form is for a new record.  If it is a new record, 
+  //set the Requested for value to the currently logged in user.
+
+//if(g_form.isNewRecord())
+// 	{
+// 		g_form.setValue('u_requested_for',g_user.userID);
+// 	}
+   
+ 	var x = 7;
+ 	jslog("This message is from jslog().");   
+ 	jslog("The value of x = " + x); 
+ 	jslog("The NeedIt State value = " + g_form.getValue('state'));
+ 	jslog("The currently logged in user is " + g_user.getFullName() + ".");
+  }]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-04 10:22:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>459f0e38dbbb3200797b52b0cf9619f6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>NeedIt Set Requested for</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="needit" source="x_119561_needit">6b006ca4db333200797b52b0cf96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="needit">6b006ca4db333200797b52b0cf96192d</sys_scope>
+        <sys_update_name>sys_script_client_459f0e38dbbb3200797b52b0cf9619f6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-10 11:59:50</sys_updated_on>
+        <table>x_119561_needit_needit</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

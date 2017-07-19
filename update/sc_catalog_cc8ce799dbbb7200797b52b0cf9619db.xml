@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>white</background_color>
+        <description>daq</description>
+        <desktop_continue_shopping>faw</desktop_continue_shopping>
+        <desktop_home_page>fsa</desktop_home_page>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</manager>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-07-06 06:24:05</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>cc8ce799dbbb7200797b52b0cf9619db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>wqe</sys_name>
+        <sys_package display_value="needit" source="x_119561_needit">6b006ca4db333200797b52b0cf96192d</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="needit">6b006ca4db333200797b52b0cf96192d</sys_scope>
+        <sys_update_name>sc_catalog_cc8ce799dbbb7200797b52b0cf9619db</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-07-06 06:24:05</sys_updated_on>
+        <title>wqe</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc8ce799dbbb7200797b52b0cf9619db"/>
+</record_update>
